@@ -1,0 +1,241 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: #ede6df;
+    max-width: 100%;
+    margin: 0;
+    min-height: 100vh;
+}
+
+div {
+    max-width: 100%;
+}
+.hero {
+    color: #000;
+    border: 5px solid #3d405b;
+    margin: 1rem;
+}
+
+h1 {
+    font-size: 10rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #000;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #000;
+
+}
+p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+
+.about img {
+    border-radius: 50%;
+    align-self: center;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.skills, .bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.skills li {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.skills2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 70%;
+}
+
+.skills2 img {
+    align-self: center;
+    height: 50%;
+    width: 50%;
+}
+
+.skills-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 2rem;
+    width: 50%;
+    border: 3px solid #000;
+    background-color: #3d405b;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.skills-text p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: #ede6df
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Helvetica Neue", sans-serif;
+    color: #F2CC8F;
+}
+
+.navbar ul {
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3d405b;
+  margin-bottom: 1rem;
+}
+
+.skills-list, .footer {
+    width: 100%;
+    background-color: #3d405b;
+    color: #F2CC8F;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #ede6df;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.navbar li i {
+    display: block;
+    color: #ede6df;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: hsl(234, 20%, 45%);
+  }
+
+  button {
+   padding: .5rem 5rem;
+   margin: 1rem;
+   background-color: #3d405b;
+   color: #ede6df;
+   font-size: large;
+   border: 2px solid #000;
+   border-radius: 12px;
+  }
+
+  button:hover {
+    background-color:	hsl(234, 20%, 45%);
+  }
+
+
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border: 5px solid #3d405b;
+    border-radius: 12px;
+  }
+
+  .contact h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 5rem;
+    padding: 1rem 0;
+    margin: 0;
+  }
+
+  .contact p {
+    padding: 1rem 0;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .bottom-container {
+    padding: 50px 0 0;
+    background-color: #3d405b;
+    color: #F2CC8F;
+    margin-top: 20px;
+    width: 100%;
+    flex: 1
+  }
+
+  .bottom-container ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem 0;
+    font-size: 30px;
+  }
+
+  .bottom-container ul a {
+    color: #F2CC8F;
+  }
