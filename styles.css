@@ -54,6 +54,8 @@ p {
 .about img {
     border-radius: 50%;
     align-self: center;
+    height: 20%;
+    width: 20%;
 }
 
 header p {
@@ -69,9 +71,10 @@ header p {
     align-items: center;
     margin: 0 auto;
     padding: 0;
+    width: 100%;
 }
 
-.skills ul {
+.skills-list ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -79,13 +82,15 @@ header p {
     align-items: center;
     margin: 0 auto;
     padding: 3rem 0;
+    overflow: hidden;
 }
 
-.skills li {
+.skills-list li {
     font-size: 1.5rem;
     font-weight: 400;
     text-align: center;
     margin: 0 1rem;
+    max-width: 100%;
 }
 
 .skills2 {
@@ -102,6 +107,7 @@ header p {
     align-self: center;
     height: 50%;
     width: 50%;
+    border-radius: 12px;
 }
 
 .skills-text {
@@ -236,6 +242,50 @@ list-style-type: none;
     font-size: 30px;
   }
 
-  .bottom-container ul a {
+  .bottom-container ul a, .skills-text a {
     color: #F2CC8F;
+  }
+
+  .border {
+    border: 3px solid #3d405b;
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .skills2 {
+      flex-direction: column;
+    }
+
+    .skills-text {
+      width: 80%;
+    }
+
+    .skills2 img {
+      height: 80%;
+      width: 80%;
+    }
+
+    .skills-list ul {
+      flex-direction: column;
+    }
+
+    .skills-list li {
+      margin: 1rem 0;
+    }
+
+    .navbar li {
+      display: block;
+    }
+
+    .navbar li a {
+      padding: 14px 16px;
+    }
+
+    .bottom-container ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+    
   }
